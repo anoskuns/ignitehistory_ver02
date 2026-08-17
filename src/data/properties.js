@@ -286,7 +286,39 @@ export const propertiesData = [
     id: "p9",
     region: 3,
     type: "property",
-    name: "Phố Hiến / Hội An",
+    name: "Phố Hiến",
+
+    price: 160,
+    mortgage: 80,
+
+    levels: {
+      0: { name: "Đất trống", passageFee: 18 },
+      1: {
+        name: "Cấp 1",
+        upgradeCost: 80,
+        sellValue: 40,
+        passageFee: 35
+      },
+      2: {
+        name: "Cấp 2",
+        upgradeCost: 200,
+        sellValue: 100,
+        passageFee: 60
+      },
+      3: {
+        name: "Cấp 3",
+        upgradeCost: 400,
+        sellValue: 200,
+        passageFee: 100
+      }
+    }
+  },
+
+  {
+    id: "p9b",
+    region: 3,
+    type: "property",
+    name: "Hội An",
 
     price: 160,
     mortgage: 80,
@@ -418,7 +450,39 @@ export const propertiesData = [
     id: "p13",
     region: 4,
     type: "property",
-    name: "Ba Đình / Điện Biên",
+    name: "Ba Đình",
+
+    price: 240,
+    mortgage: 120,
+
+    levels: {
+      0: { name: "Đất trống", passageFee: 30 },
+      1: {
+        name: "Cấp 1",
+        upgradeCost: 120,
+        sellValue: 60,
+        passageFee: 60
+      },
+      2: {
+        name: "Cấp 2",
+        upgradeCost: 300,
+        sellValue: 150,
+        passageFee: 100
+      },
+      3: {
+        name: "Cấp 3",
+        upgradeCost: 600,
+        sellValue: 300,
+        passageFee: 160
+      }
+    }
+  },
+
+  {
+    id: "p13b",
+    region: 4,
+    type: "property",
+    name: "Điện Biên",
 
     price: 240,
     mortgage: 120,
@@ -524,7 +588,7 @@ export const propertiesData = [
       1: {
         name: "Cấp 1",
         upgradeCost: 175,
-        sellValue: 87.5,
+        sellValue: 88,
         passageFee: 80
       },
       2: {
